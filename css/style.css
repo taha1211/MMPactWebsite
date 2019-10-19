@@ -1,0 +1,98 @@
+.main
+{
+    background-image: linear-gradient(to bottom right, #021B79, #5162FF);
+    font-family: 'Questrial', sans-serif;
+}
+
+
+h1 {
+    color: #FFCB05;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 1em;
+}
+
+.pill {
+    border: 5px solid #FFCB05;
+    color: #FFCB05;
+    border-radius: 25px;
+    min-width: 20px;
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Questrial', sans-serif;
+}
+
+h2 {
+    color: #FFCB05;
+    text-align: center;
+    padding: 1em;
+}
+
+.survey-link {
+    margin: 0;
+    background-color: #FFCB05;
+    text-align: center;
+    margin-left: 28em;
+    margin-right: 28em;
+    
+}
+
+.bottom {
+    padding-bottom: 3em;
+}
+
+h3 {
+    padding-top: 3em;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    color: #021B79;
+}
+
+p {
+    padding-top: 2em;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    color: #021B79;
+}
+
+.spacer
+{
+    padding-bottom: 4em;
+}
+
+.off-white {
+    background-color: #F5F5F5;
+}
+
+.btn
+{
+  background-color: #FFCB05; /* Green */
+  font-size: 2em;
+  border: none;
+  color: #021B79;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a
+{
+text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .pic {
+        display: none;
+    }
+    
+    .pill {
+        display: none;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+}
