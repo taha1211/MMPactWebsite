@@ -1,31 +1,41 @@
 .main
 {
-    background-image: linear-gradient(to bottom right, #021B79, #5162FF);
-    font-family: 'Questrial', sans-serif;
+    background-image: linear-gradient(to top right, #95B7DC, #144F8E);
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
 h1 {
     color: #FFCB05;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5em;
     text-align: center;
-    padding: 2em;
-    padding-bottom: 1em;
+    /* padding-top: 2em; */
+    padding-bottom: 0.5em;
 }
 
 .pill {
     border: 5px solid #FFCB05;
     color: #FFCB05;
     border-radius: 25px;
-    min-width: 20px;
+    min-width: 10px;
+    max-width: 500px;
     text-align: center;
-    font-size: 7em;
-    font-family: 'Questrial', sans-serif;
+    font-size: 3em;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h2 {
     color: #FFCB05;
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
+    font-style: italic;
 }
 
 .survey-link {
@@ -34,6 +44,7 @@ h2 {
     text-align: center;
     margin-left: 28em;
     margin-right: 28em;
+
     
 }
 
@@ -42,16 +53,31 @@ h2 {
 }
 
 h3 {
-    padding-top: 3em;
+    padding-top: 2em;
     text-align: center;
-    font-family: 'Questrial', sans-serif;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    color: #021B79;
+}
+h4 {
+    padding-top: 2em;
+    text-align: center;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
     color: #021B79;
 }
 
 p {
-    padding-top: 2em;
+    padding-top: 2em;    
     text-align: center;
-    font-family: 'Questrial', sans-serif;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
     color: #021B79;
 }
 
@@ -64,22 +90,46 @@ p {
     background-color: #F5F5F5;
 }
 
+#headerlogo {
+    /* position: static; */
+    /* align-content: center;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+
 .btn
 {
   background-color: #FFCB05; /* Green */
   font-size: 2em;
   border: none;
   color: #021B79;
+  
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 3em;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 700;
+  font-style: italic;
+  transition: 0.4s;
+
+}
+
+.btn:hover
+{
+  box-shadow: 7px 10px #144f8e8c;
+  background-color:#fac020
 }
 
 a
 {
 text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
